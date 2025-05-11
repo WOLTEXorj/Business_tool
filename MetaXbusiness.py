@@ -1,3 +1,4 @@
+I = Exception
 cyan = "\033[1m\033[36m"
 c1 = '\x1b[38;5;120m'
 p1 = '\x1b[38;5;150m'
@@ -39,7 +40,6 @@ R = open
 L = ''
 K = range
 J = '\x1b[1;39m'
-I = Exception
 F = None
 C = str
 B = print
@@ -415,4 +415,4 @@ def AW():
     for A_thread in u:
         A_thread.join()
 AW()
-  
+    
